@@ -9,7 +9,7 @@ from io import StringIO
 #Nombre de la aplicación
 st.title("Registro de pozos")
 # Archivos a importar
-archivo_las = lasio.read("Archivos_las\LGAE-040.las")
+archivo_las = lasio.read("LGAE-040.las")
 df = archivo_las.df()
 inicio = Image.open("Inicio.jpg")
 # Menú de la aplicación
