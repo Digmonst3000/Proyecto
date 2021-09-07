@@ -1,0 +1,46 @@
+1.- En una carpeta crear el proyecto donde deberá contener los siguientes archivos
+	- Procfile (abrir este archivo con el bloc de notas y editar unicamente el nombre, este debe ser igual al de su script desarrollado nombre.py )
+	- requirements.txt (abrir con el bloc de notas e indicar las librerias que se han utilizado o han sido importadas al inicio del proyecto)
+		Nota: colocar el nombre de la libreria y su version, la version se la puede consultar en el anaconda pront con la instruccion pip list
+		Ejemplo : pandas>=1.1.1
+	- setup.sh (este archivo no se modifica pero se debe subir al repositorio para la publicacion web)
+
+
+	- archivos externos como imagenes, archivos las, archivos excel, archivos csv etc. que hayan utilizado y desplegado en el aplicativo
+2.- En github crear un nuevo reopositorio
+	- Ingresar el nombre al repositorio
+	- descripcion es opcional
+	- opcion public debe ser selecionada
+	- selecionar Add a README file
+	- selecionar Add .gitignore y ubicar en la pestaña de seleccion Python
+	- dar clic en create repository al final de la pagina
+
+	-Una ves creado el repositorio debemos subir los archivos que estan en la carpeta del proyecto de su pc mensionados anteriormente
+	-Nos dirigimos al boton add file y selecionamos upload files
+	-damos clic en choose yours files y ubicamos la carpeta del proyecto y subimos los archivos
+	-esperamos a que estos se carguen y al final del navegador dar clic en commit changes
+	Nota: en caso de haber escrito mal el codigo o los archivos necesarios los podemos editar ingresando al archivo y selecionar el boton a lado derecho que tiene forma de lapiz 
+	una ves editado al final de la pagina presionamos Commit changes
+3.- Crear una nueva app en Heroku abrir la seccion de aplicaciones en Heroku en el siguinete link se direciona una ves abierto su cuenta
+	https://dashboard.heroku.com/apps
+	- dar clic en el boton new y seleccionamos Create new app
+	- Ingresamos el nombre de la aplicacion en App name procurar que este nombre se lo pueda dar un nombre unico que no sea utulizado anteriormente podria ser las siglas de su nombre completo al final de la app y todo en minusculas
+	- Elegir la region de United States como la mas cercana 
+	- Finalmente dar clic en Create app
+
+4. Enlace Heroku y Github
+	- Se abre una pagina donde  damos clic en el logo de github que  permitira conectarse al repositorio 
+	 algunas veces pide ingreso de contraseña y otras se conecta automaticamente 
+	- una ves conectado al github aparecera un boton de searh damos clic ahi y presentara los repositorios creados
+	- damos clic en conect y esperamos 
+	- finalmente nos dirigimos al ultimo de la pagina y damos clic en el boton Deploy Branch 
+	Nota: Heroku desarrollara la publicacion web y tomara un tiempo en funcion del proyecto y su conectividad a interet una ves finalizado 
+	      emitira un mensaje de Your app was successfully deployed.
+	- damos clic en view y ese sera su  link url del aplicativo desarrollado en python y publicado en la web como una herramienta para manejo de datos
+	
+
+
+
+
+
+	
